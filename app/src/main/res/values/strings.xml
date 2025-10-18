@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Security01</string>
+
+    <!-- Common -->
+    <string name="loading">Cargando...</string>
+    <string name="error">Error</string>
+    <string name="success">Éxito</string>
+    <string name="cancel">Cancelar</string>
+    <string name="accept">Aceptar</string>
+    <string name="continue_text">Continuar</string>
+    <string name="back">Regresar</string>
+
+    <!-- Login Screen -->
+    <string name="login_title">Bienvenido</string>
+    <string name="login_subtitle">Inicia sesión para continuar</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar Sesión</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="already_have_account">¿Ya tienes cuenta?</string>
+
+    <!-- Register Screen -->
+    <string name="register_title">Crear Cuenta</string>
+    <string name="register_subtitle">Regístrate para comenzar</string>
+    <string name="name_hint">Nombre completo</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="register_button">Crear Cuenta</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="forgot_password_title">Recuperar Contraseña</string>
+    <string name="forgot_password_subtitle">Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.</string>
+    <string name="send_link_button">Enviar Enlace</string>
+    <string name="back_to_login">Volver al Inicio de Sesión</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Mi Perfil</string>
+    <string name="logout">Cerrar Sesión</string>
+    <string name="logout_confirmation">¿Estás seguro de que deseas cerrar sesión?</string>
+    <string name="security_info">Información de Seguridad</string>
+    <string name="validate_token">Validar Token en Servidor</string>
+    <string name="session_info">Información de Sesión</string>
+
+    <!-- Security Info -->
+    <string name="encrypted_session">Sesión Encriptada</string>
+    <string name="encrypted_session_desc">Tus datos están protegidos con encriptación AES-256</string>
+    <string name="auth_token">Token de Autenticación</string>
+    <string name="auth_token_desc">Token JWT activo y verificado</string>
+    <string name="session_expiration">Expiración de Sesión</string>
+    <string name="session_expiration_desc">Tu sesión expirará después de 24 horas de inactividad</string>
+
+    <!-- Errors -->
+    <string name="error_empty_email">El email es obligatorio</string>
+    <string name="error_invalid_email">Formato de email inválido</string>
+    <string name="error_empty_password">La contraseña es obligatoria</string>
+    <string name="error_short_password">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_empty_name">El nombre es obligatorio</string>
+    <string name="error_empty_confirm_password">Confirma tu contraseña</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden</string>
+    <string name="error_connection">Error de conexión</string>
+    <string name="error_unknown">Error desconocido</string>
+    <string name="error_invalid_credentials">Credenciales incorrectas</string>
+    <string name="error_user_exists">El usuario ya existe</string>
+
+    <!-- Success Messages -->
+    <string name="success_login">Inicio de sesión exitoso</string>
+    <string name="success_register">Registro exitoso</string>
+    <string name="success_password_recovery">Se ha enviado un correo para recuperar tu contraseña</string>
+
+    <!-- Content Descriptions -->
+    <string name="app_logo">Logo de la aplicación</string>
+    <string name="user_avatar">Avatar del usuario</string>
+    <string name="back_button">Botón para regresar</string>
+    <string name="logout_button">Botón para cerrar sesión</string>
+    <string name="info_button">Botón de información</string>
+</resources>
